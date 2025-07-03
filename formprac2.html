@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       
+        
+        .container{
+            background: linear-gradient( to bottom,  rgb(9, 63, 63),rgba(212, 216, 218, 0.075));
+            font-size: 20px;
+            padding: 50px;
+            /* margin: 40px; */
+            align-items: center;
+            position: absolute;
+            left: 345px;
+            border-radius: 15px;
+            width: 600px;
+            height: 500px;
+            box-shadow: 5px 4px 6px;
+        }
+        h1{
+            font-size: 30px ;
+            letter-spacing: .3em;
+            color:white;
+            text-align: center;
+        }
+        INPUT[type=text]{
+            width: 100%;
+            height: 100%;
+            padding: 12px 40px;
+            box-sizing: border-box;
+            margin: 8px 0;
+            border: 2px solid silver;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        input[type=submit]{
+            width: 100px;
+            background-color: rgb(9, 63, 63) ;
+            margin: 28px 0;
+            margin-left: 230px;
+            padding: 14px 20px;
+            font-size: 20px;
+            color: rgb(230, 226, 218);
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+        .select{
+            width: 100px;
+            /* height: 100%; */
+            /* padding: 2px; */
+            /* box-sizing: border-box; */
+            margin: 8px ;
+            /* border: 2px solid silver; */
+            border-radius: 9px;
+            display: inline-block;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        .p{
+            margin-left: 320px;
+        }
+        input[type=text]:focus{
+            background-color: rgb(190, 231, 229);
+        }
+         input[type=submit]:focus{
+            background-color: lightseagreen;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ARIES</h1>
+        <form action="">
+            <label for="username">user name</label>
+            <input type="text" name="username" id="username" placeholder="">
+
+            <label for="password">password</label>
+            <input type="text" name="password" id="password" >
+            <input type="submit" value="Loggin">
+            <br>
+            <code>version 2.2.84</code>
+            <P>PROD</P>
+            <label for="select language" class="p">Select Language</label>
+            <select class="select" name="select language" id="select language" >
+                <option value="ENGLISH ">ENGLISH</option>
+                <option value="CHINISE">CHINISE</option>
+                <option value="FRENCH">FRENCH</option>
+            </select>
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>
